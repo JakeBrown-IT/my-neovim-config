@@ -26,7 +26,7 @@ return {
                 dashboard.button("ff", "󰱼 - Find File", "<cmd> :lua require('fzf-lua').files({}) <cr>"),
                 dashboard.button("up", "󰄿 - Update Plugins", "<cmd> Lazy update <cr>"),
                 dashboard.button("sp", "󰓦 - Sync Plugins", "<cmd> Lazy sync <cr>"),
-                dashboard.button("c",  "󱁻 - Open Config Files", "<cmd> :lua require('fzf-lua').files({cwd='~/AppData/Local/nvim/'}) <cr>"),
+                dashboard.button("c",  "󱁻 - Open Config Files", "<cmd> :lua require('fzf-lua').files({cwd='~/.config/nvim'}) <cr>"),
                 dashboard.button("q",  " - Quit", "<cmd> qa! <cr>"),
             }
 

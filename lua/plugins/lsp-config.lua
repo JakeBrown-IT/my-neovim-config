@@ -9,7 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "clangd" }
+                ensure_installed = { "lua_ls", "clangd", "markdown_oxide" }
             })
         end
     },
@@ -22,6 +22,9 @@ return {
                 capabilities = capabilities,
             })
             lspconfig.clangd.setup({
+                capabilities = capabilities,
+            })
+            lspconfig.markdown_oxide.setup({
                 capabilities = capabilities,
             })
 
