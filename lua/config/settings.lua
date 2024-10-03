@@ -17,3 +17,5 @@ vim.opt.cursorline = true
 -- set scroll off
 vim.opt.scrolloff = 10
 
+-- set no swapfile
+vim.opt.swapfile = false

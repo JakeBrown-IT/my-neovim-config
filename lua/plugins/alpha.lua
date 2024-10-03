@@ -22,11 +22,11 @@ return {
             -- stylua: ignore
             dashboard.section.buttons.val = {
                 dashboard.button("nf", " - New File", "<cmd> ene <BAR> startinsert <cr>"),
-                dashboard.button("rf", " - Recent File", "<cmd> :lua require('fzf-lua').oldfiles({}) <cr>"),
-                dashboard.button("ff", "󰱼 - Find File", "<cmd> :lua require('fzf-lua').files({}) <cr>"),
+                dashboard.button("rf", " - Recent File", "<cmd>Telescope oldfiles hidden=true<cr>"),
+                dashboard.button("ff", "󰱼 - Find File", "<cmd>Telescope find_files hidden=true<cr>"),
                 dashboard.button("up", "󰄿 - Update Plugins", "<cmd> Lazy update <cr>"),
                 dashboard.button("sp", "󰓦 - Sync Plugins", "<cmd> Lazy sync <cr>"),
-                dashboard.button("c",  "󱁻 - Open Config Files", "<cmd> :lua require('fzf-lua').files({cwd='~/.config/nvim'}) <cr>"),
+                dashboard.button("c",  "󱁻 - Open Config Files", "<cmd>Telescope file_browser path=~/.config/nvim<cr>"),
                 dashboard.button("q",  " - Quit", "<cmd> qa! <cr>"),
             }
 
