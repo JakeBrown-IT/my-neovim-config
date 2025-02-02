@@ -17,7 +17,7 @@
   "mini.surround": { "branch": "main", "commit": "ceddea5fe862f13b279d9bbe81c3327a0e66d56b" },
   "mini.tabline": { "branch": "main", "commit": "afd1a36cc59de92ceecbcca1a5446e5eb80050d6" },
   "mini.trailspace": { "branch": "main", "commit": "9bbbf568c06fe424dc21d2c228fa76098008a5f3" },
-  "nvim-treesitter": { "branch": "master", "commit": "16a51977dcaab1e1adc3152471ac862202f9be83" },
+  "nvim-treesitter": { "branch": "master", "commit": "73b68cb943cd6718bdee318a70874620070255d4" },
   "oil.nvim": { "branch": "master", "commit": "add50252b5e9147c0a09d36480d418c7e2737472" },
   "tokyonight.nvim": { "branch": "main", "commit": "dca4adba7dc5f09302a00b0e76078d54d82d2658" }
 }
